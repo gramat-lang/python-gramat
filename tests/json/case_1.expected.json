@@ -1,0 +1,471 @@
+[
+  {
+    "rule": "object",
+    "nodes": [
+      {
+        "rule": null,
+        "token": "{\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"string_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "string",
+        "token": "\"\""
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"integer_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "number",
+        "token": "0"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"decimal_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "number",
+        "token": "0.5"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"decimal_3\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "number",
+        "token": "10e10"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"boolean_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "keyword",
+        "token": "true"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"null\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "keyword",
+        "token": "null"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"object_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "object",
+        "token": "{}"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"object_2\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "object",
+        "nodes": [
+          {
+            "rule": null,
+            "token": "{\n    "
+          },
+          {
+            "rule": "string",
+            "token": "\"string_2\""
+          },
+          {
+            "rule": null,
+            "token": ": "
+          },
+          {
+            "rule": "string",
+            "token": "\"this is a\\nstring value\""
+          },
+          {
+            "rule": null,
+            "token": ",\n    "
+          },
+          {
+            "rule": "string",
+            "token": "\"string_3\""
+          },
+          {
+            "rule": null,
+            "token": ": "
+          },
+          {
+            "rule": "string",
+            "token": "\"\\r\\n\\\"\\\\\\/\\b\\f\\r\\u0020\""
+          },
+          {
+            "rule": null,
+            "token": ",\n    "
+          },
+          {
+            "rule": "string",
+            "token": "\"object_3\""
+          },
+          {
+            "rule": null,
+            "token": ": "
+          },
+          {
+            "rule": "object",
+            "nodes": [
+              {
+                "rule": null,
+                "token": "{\n      "
+              },
+              {
+                "rule": "string",
+                "token": "\"integer_2\""
+              },
+              {
+                "rule": null,
+                "token": ": "
+              },
+              {
+                "rule": "number",
+                "token": "12"
+              },
+              {
+                "rule": null,
+                "token": ",\n      "
+              },
+              {
+                "rule": "string",
+                "token": "\"decimal_2\""
+              },
+              {
+                "rule": null,
+                "token": ": "
+              },
+              {
+                "rule": "number",
+                "token": "12.34"
+              },
+              {
+                "rule": null,
+                "token": "\n    }"
+              }
+            ]
+          },
+          {
+            "rule": null,
+            "token": "\n  }"
+          }
+        ]
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"array_1\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "array",
+        "token": "[]"
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"array_2\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "array",
+        "nodes": [
+          {
+            "rule": null,
+            "token": "["
+          },
+          {
+            "rule": "string",
+            "token": "\"\""
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "number",
+            "token": "0"
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "keyword",
+            "token": "true"
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "keyword",
+            "token": "false"
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "keyword",
+            "token": "null"
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "object",
+            "token": "{}"
+          },
+          {
+            "rule": null,
+            "token": ", "
+          },
+          {
+            "rule": "array",
+            "token": "[]"
+          },
+          {
+            "rule": null,
+            "token": "]"
+          }
+        ]
+      },
+      {
+        "rule": null,
+        "token": ",\n  "
+      },
+      {
+        "rule": "string",
+        "token": "\"array_3\""
+      },
+      {
+        "rule": null,
+        "token": ": "
+      },
+      {
+        "rule": "array",
+        "nodes": [
+          {
+            "rule": null,
+            "token": "[\n    "
+          },
+          {
+            "rule": "object",
+            "nodes": [
+              {
+                "rule": null,
+                "token": "{\n      "
+              },
+              {
+                "rule": "string",
+                "token": "\"decimal_4\""
+              },
+              {
+                "rule": null,
+                "token": ": "
+              },
+              {
+                "rule": "number",
+                "token": "12.34e10"
+              },
+              {
+                "rule": null,
+                "token": ",\n      "
+              },
+              {
+                "rule": "string",
+                "token": "\"decimal_5\""
+              },
+              {
+                "rule": null,
+                "token": ": "
+              },
+              {
+                "rule": "number",
+                "token": "12.34e+10"
+              },
+              {
+                "rule": null,
+                "token": "\n    }"
+              }
+            ]
+          },
+          {
+            "rule": null,
+            "token": ",\n    "
+          },
+          {
+            "rule": "object",
+            "nodes": [
+              {
+                "rule": null,
+                "token": "{\n      "
+              },
+              {
+                "rule": "string",
+                "token": "\"array_4\""
+              },
+              {
+                "rule": null,
+                "token": ": "
+              },
+              {
+                "rule": "array",
+                "nodes": [
+                  {
+                    "rule": null,
+                    "token": "[\n        "
+                  },
+                  {
+                    "rule": "object",
+                    "nodes": [
+                      {
+                        "rule": null,
+                        "token": "{\n          "
+                      },
+                      {
+                        "rule": "string",
+                        "token": "\"decimal_6\""
+                      },
+                      {
+                        "rule": null,
+                        "token": ": "
+                      },
+                      {
+                        "rule": "number",
+                        "token": "12.34e-10"
+                      },
+                      {
+                        "rule": null,
+                        "token": ",\n          "
+                      },
+                      {
+                        "rule": "string",
+                        "token": "\"boolean_2\""
+                      },
+                      {
+                        "rule": null,
+                        "token": ": "
+                      },
+                      {
+                        "rule": "keyword",
+                        "token": "false"
+                      },
+                      {
+                        "rule": null,
+                        "token": "\n        }"
+                      }
+                    ]
+                  },
+                  {
+                    "rule": null,
+                    "token": "\n      ]"
+                  }
+                ]
+              },
+              {
+                "rule": null,
+                "token": "\n    }"
+              }
+            ]
+          },
+          {
+            "rule": null,
+            "token": "\n  ]"
+          }
+        ]
+      },
+      {
+        "rule": null,
+        "token": "\n}"
+      }
+    ]
+  },
+  {
+    "rule": null,
+    "token": "\n"
+  }
+]

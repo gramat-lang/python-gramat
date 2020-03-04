@@ -1,0 +1,8 @@
+/.pytest_cache
+/env/
+/dist/
+/build/
+/gramat.egg-info/
+/.coverage
+
+__pycache__

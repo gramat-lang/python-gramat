@@ -1,0 +1,5 @@
+-r requirements-main.txt
+
+pytest
+coverage
+pylama
