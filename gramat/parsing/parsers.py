@@ -1,10 +1,11 @@
 from typing import Optional, List
 
+from walkman import Location, Source
+
 from gramat.expressions import RuleExp, Expression, RepetitionExp
 from gramat.expressions import OptionalExp, LiteralExp, NegationExp
 from gramat.expressions import ReferenceExp, SequenceExp, AlternationExp
 from gramat.expressions import Element, CharPredicateExp
-from gramat.parsing.location import Location
 
 from gramat.parsing.read_context import ReadContext
 
@@ -24,8 +25,6 @@ from gramat.parsing.symbols import negation_mark
 from gramat.parsing.symbols import soft_assignment_mark, hard_assignment_mark
 from gramat.parsing.symbols import predicate_delimiter_char
 from gramat.parsing.symbols import predicate_range_mark, alternation_mark
-
-from gramat.parsing.source import Source
 
 
 def try_read_group(ctx: ReadContext) -> Optional[Expression]:
